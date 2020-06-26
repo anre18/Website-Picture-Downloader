@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 /*
  * @Author: https://github.com/anre18/
- * @Version: v.1.0 
+ * @Version: v.1.1 
  * */
 
 public class PictureDownloader {
@@ -43,7 +43,7 @@ public class PictureDownloader {
 					}
 				}
 				
-			} catch (Exception e) {e.printStackTrace();}
+			} catch (Exception e) {} //Ignores any Exceptions
 		}		
 	}
 	
