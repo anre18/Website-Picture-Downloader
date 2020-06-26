@@ -1,4 +1,4 @@
-Just give the wanted urls, as parameter at the start.
+Just give the wanted urls as parameter at the start.
 
 IMPORTANT:
 The Code isn't finished, bugs may occure!
