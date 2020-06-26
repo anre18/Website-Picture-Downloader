@@ -40,6 +40,7 @@ public class PictureDownloader {
 					
 					try(InputStream in = new URL(cleaned).openStream()){
 					    Files.copy(in, Paths.get(filename));
+					}catch (Exception e) {
 					}
 				}
 				
